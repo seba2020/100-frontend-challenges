@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01-Profile Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="bg-[#F0F3C0] h-screen w-screen flex flex-col justify-center items-center"
+    >
+      <div
+        class="bg-white rounded-[35px] flex-col overflow-hidden shadow-md max-w-lg"
+      >
+        <div class="relative">
+          <div class="absolute bottom-2 left-[40%]">
+            <img
+              src="https://docs.material-tailwind.com/img/face-2.jpg"
+              alt="avatar"
+              class="rounded-full w-[95px] h-[95px]"
+            />
+          </div>
+          <svg
+            width="100%"
+            height="100%"
+            id="svg"
+            viewBox="0 0 1440 590"
+            xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="5%" stop-color="#F78DA7"></stop>
+                <stop offset="95%" stop-color="#8ED1FC"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              d="M 0,600 L 0,150 C 82.84210526315792,127.26315789473685 165.68421052631584,104.52631578947368 267,93 C 368.31578947368416,81.47368421052632 488.1052631578947,81.1578947368421 581,103 C 673.8947368421053,124.8421052631579 739.8947368421053,168.84210526315795 846,195 C 952.1052631578947,221.15789473684205 1098.3157894736844,229.4736842105263 1204,219 C 1309.6842105263156,208.5263157894737 1374.842105263158,179.26315789473685 1440,150 L 1440,600 L 0,600 Z"
+              stroke="none"
+              stroke-width="0"
+              fill="url(#gradient)"
+              fill-opacity="0.53"
+              class="transition-all duration-300 ease-in-out delay-150 path-0"
+              transform="rotate(-180 720 300)"
+            ></path>
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="5%" stop-color="#F78DA7"></stop>
+                <stop offset="95%" stop-color="#8ED1FC"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              d="M 0,600 L 0,350 C 126.46889952153111,343.2918660287081 252.93779904306223,336.5837320574163 337,344 C 421.0622009569378,351.4162679425837 462.71770334928215,372.95693779904303 550,367 C 637.2822966507179,361.04306220095697 770.1913875598088,327.58851674641147 879,317 C 987.8086124401912,306.41148325358853 1072.5167464114832,318.688995215311 1162,328 C 1251.4832535885168,337.311004784689 1345.7416267942585,343.6555023923445 1440,350 L 1440,600 L 0,600 Z"
+              stroke="none"
+              stroke-width="0"
+              fill="url(#gradient)"
+              fill-opacity="1"
+              class="transition-all duration-300 ease-in-out delay-150 path-1"
+              transform="rotate(-180 720 300)"
+            ></path>
+          </svg>
+        </div>
+        <div class="px-10 mb-10 flex flex-col gap-6">
+          <div class="flex flex-col items-center justify-center">
+            <p class="text-[#0E0E0E] text-2xl font-medium tracking-widest">
+              Johnny Rogers
+            </p>
+            <p class="text-[#999799] text-xs font-medium">@jhonnyrogers</p>
+          </div>
+          <div class="flex justify-center gap-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-facebook"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-linkedin"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+              />
+              <path d="M8 11l0 5" />
+              <path d="M8 8l0 .01" />
+              <path d="M12 16l0 -5" />
+              <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-x"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-instagram"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+              />
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M16.5 7.5l0 .01" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-dribbble"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+              <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+              <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
+              <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" />
+            </svg>
+          </div>
+          <div class="flex justify-center max-w-xs">
+            <p class="text-[#0E0E0E] text-justify text-sm font-semibold">
+              Crafting brand and communication strategies, creating visual
+              designs, leading art direction, and capturing portraits through
+              photography.
+            </p>
+          </div>
+          <div class="flex justify-center gap-6 mt-10">
+            <button
+              class="bg-[#E03F8C] w-[130px] h-[38px] text-white rounded-full"
+            >
+              Follow
+            </button>
+            <button
+              class="bg-white rounded-full w-[130px] h-[38px] border border-[#A5A5A5] text-[#A5A5A5]"
+            >
+              Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
