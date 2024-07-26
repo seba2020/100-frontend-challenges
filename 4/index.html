@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex">
+    <div class="flex-1 items-center">
+      <div class="w-full flex justify-center items-center h-screen">
+        <form action="#" class="flex flex-col gap-4 w-1/2 ml-56">
+          <div class="flex flex-col justify-center items-center gap-2">
+            <h1 class="text-4xl text-slate-700">Create an account</h1>
+            <h2 class="text-slate-600">Sign up and unlock exclusive access!</h2>
+          </div>
+
+          <div class="flex flex-col">
+            <label class="text-slate-600" for="name">Your name</label>
+            <input
+              class="p-2 outline-1 bg-slate-100 border border-slate-300 outline-[#d46542] rounded-md"
+              type="text"
+              id="name"
+              placeholder="John Doe"
+            />
+          </div>
+
+          <div class="flex flex-col">
+            <label class="text-slate-600" for="email">Email</label>
+            <input
+              class="p-2 outline-1 bg-slate-100 border border-slate-300 outline-[#d46542] rounded-md"
+              type="email"
+              id="email"
+              placeholder="you@email.com"
+            />
+          </div>
+
+          <div class="flex flex-col">
+            <label class="text-slate-600" for="password">Password</label>
+            <input
+              class="p-2 outline-1 bg-slate-100 border border-slate-300 outline-[#d46542] rounded-md"
+              type="password"
+              id="password"
+              placeholder="********"
+            />
+          </div>
+
+          <div class="flex flex-col">
+            <button
+              class="bg-[#d46542] text-white p-2 rounded-md"
+              type="submit"
+            >
+              Create account
+            </button>
+          </div>
+          <div class="flex flex-col">
+            <button
+              class="text-[#d46542] p-2 rounded-md border border-[#d46542] mt-2"
+            >
+              Sign in
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="flex-1 items-center">
+      <div class="w-full flex justify-center items-center h-screen">
+        <img src="./media.svg" alt="background" class="w-full" />
+      </div>
+    </div>
+  </body>
+</html>
